@@ -27,18 +27,18 @@
 #define HW_INIT_HOOK()				hw_init()
 
 // LEDs
-#define LED_RED_PIN					2
-#define LED_BLUE_PIN				3
+//#define LED_RED_PIN					2
+//#define LED_BLUE_PIN				3
 
-#define LED_RED_ON()				gpio_set_level(LED_RED_PIN, 1)
-#define LED_RED_OFF()				gpio_set_level(LED_RED_PIN, 0)
+//#define LED_RED_ON()				gpio_set_level(LED_RED_PIN, 1)
+//#define LED_RED_OFF()				gpio_set_level(LED_RED_PIN, 0)
 
-#define LED_BLUE_ON()				gpio_set_level(LED_BLUE_PIN, 1)
-#define LED_BLUE_OFF()				gpio_set_level(LED_BLUE_PIN, 0)
+//#define LED_BLUE_ON()				gpio_set_level(LED_BLUE_PIN, 1)
+//#define LED_BLUE_OFF()				gpio_set_level(LED_BLUE_PIN, 0)
 
 // CAN
-#define CAN_TX_GPIO_NUM				1
-#define CAN_RX_GPIO_NUM				0
+#define CAN_TX_GPIO_NUM				3
+#define CAN_RX_GPIO_NUM				2
 
 // SD-card
 #define SD_PIN_MOSI					4

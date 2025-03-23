@@ -20,6 +20,7 @@
 #include "hw_xp_t.h"
 
 void hw_init(void) {
+		/*
 	    gpio_config_t io_conf = {};
 	    io_conf.intr_type = GPIO_INTR_DISABLE;
 	    io_conf.mode = GPIO_MODE_OUTPUT;
@@ -30,4 +31,5 @@ void hw_init(void) {
 
 	    LED_RED_OFF();
 	    LED_BLUE_OFF();
+		*/
 }
