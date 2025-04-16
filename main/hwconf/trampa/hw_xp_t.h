@@ -37,8 +37,8 @@
 //#define LED_BLUE_OFF()				gpio_set_level(LED_BLUE_PIN, 0)
 
 // CAN
-#define CAN_TX_GPIO_NUM				3
-#define CAN_RX_GPIO_NUM				2
+#define CAN_TX_GPIO_NUM				2
+#define CAN_RX_GPIO_NUM				3
 
 // SD-card
 #define SD_PIN_MOSI					4
